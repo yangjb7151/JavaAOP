@@ -13,28 +13,23 @@ public class DogImp implements AnimalInterface {
 	public DogImp() {
 	}
 
-	@Override
 	public void setName(String name) {
 		this.name = name;
 	}
 
-	@Override
 	public String getName() {
 		return this.name;
 	}
 
-	@Override
 	public void say() {
-		System.out.println("Ð¡¹·:ÍôÍôÍôÍô.....");
+		System.out.println("Ð¡ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.....");
 	}
 
-	@Override
-	@Seven(Property = "Ë®Â½Á½ÆÜÕ½Ê¿")
+	@Seven(Property = "Ë®Â½ï¿½ï¿½ï¿½ï¿½Õ½Ê¿")
 	public void setProperty(String Property) {
 		this.Property = Property;
 	}
 
-	@Override
 	public void getProperty() {
 		System.out.println(this.name + this.Property);
 	}
