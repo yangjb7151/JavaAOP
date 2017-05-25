@@ -6,5 +6,6 @@ public class Test {
 		DogImp dogImp = new DogImp();
 		System.out.println(dogImp.getName());
 		dogImp.getProperty();
+		System.out.println(1111);
 	}
 }
